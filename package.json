@@ -1,0 +1,16 @@
+{
+  "name": "node-comunica-test",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^4.6.2"
+  },
+  "dependencies": {
+    "@comunica/query-sparql": "link:/home/remo/code/linked-data/comunica/engines/query-sparql"
+  },
+  "scripts": {
+    "build": "tsc main.ts",
+    "ts-version": "tsc --version"
+  }
+}
